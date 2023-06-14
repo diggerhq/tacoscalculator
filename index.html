@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Terraform Price Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>TACOS Price Calculator 🌮</h1>
+  
+  <form id="calculator-form">
+    <label for="resources">Number of Resources:</label>
+    <input type="number" id="resources" name="resources" required>
+
+    <label for="users">Number of Users:</label>
+    <input type="number" id="users" name="users" required>
+
+    <label for="runs">Number of Runs:</label>
+    <input type="number" id="runs" name="runs" required>
+
+    <label for="deployments">Monthly Deployments:</label>
+    <input type="number" id="deployments" name="deployments" required>
+
+    <button type="button" onclick="calculatePricing()">Calculate</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
