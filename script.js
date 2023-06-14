@@ -43,8 +43,8 @@ function calculatePricing() {
   }
 
   let resultText = ""
-  resultText += "Spacelift Pricing: $" + d1 + "\n";
   resultText += "TF Cloud Pricing: $" + d2.toFixed(2) + "\n";
+  resultText += "Spacelift Pricing: $" + d1 + "\n";
   resultText += "Env0 Pricing: $" + d3 + "\n";
   resultText += "Digger Pricing: $" + d4;
   result.textContent = resultText;
