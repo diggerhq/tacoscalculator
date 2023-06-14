@@ -14,10 +14,10 @@
     <label for="users">Number of Users:</label>
     <input type="number" id="users" name="users" required>
 
-    <label for="runs">Number of Runs:</label>
+    <label for="runs">Number of concurrent Runs (Number of parallel plans run in the org):</label>
     <input type="number" id="runs" name="runs" required>
 
-    <label for="deployments">Monthly Deployments:</label>
+    <label for="deployments">Monthly Deployments (1 terraform apply qualifies as 1 deployment):</label>
     <input type="number" id="deployments" name="deployments" required>
 
     <button type="button" onclick="calculatePricing()">Calculate</button>
